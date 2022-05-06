@@ -1,0 +1,50 @@
+<!doctypehtml>
+<html>
+	<head>
+	<title>
+		form
+	</title>
+	<style>
+		.box{
+			height: 230px;
+			width: 500px;
+			padding: 20px;
+			border: 2px outset blue;
+			border-radius: 3px;
+			margin-left: 23%;
+			position: absolute;
+			animation: mymove 2s alternate;
+		}
+		@keyframes mymove{
+			from {left: -545px;}
+			to {left: 3%;}
+		}
+		.btn{
+			border: none;
+			background: lightblue;
+			font-size: 15px;
+			padding: 5px 20px;
+			border-radius: 4px;
+			color: black;
+		}
+		.btn:hover{
+			background: black;
+			color: white;
+		}
+	</style>
+	</head>
+	<body>
+		<div class="box">
+		<form><h2>
+			First name: <input type="text" maxlenght="300" placeholder="enter first name"><br>
+			Gender:  Male<input type="radio"> female<input type="radio"><br>
+			password: <input type="password" placeholder="enter password"><br>
+			Date of Addmission: <input type="date"><br>
+			Fees Complete: <input type="checkbox"><br><input type="color">
+			Range: <input type="range">
+			College Time: <input type="time"><br><br>
+			<button class="btn">Log In</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn">Reset</button>
+		</form><h2>
+		</div>
+	</body>
+</html>
